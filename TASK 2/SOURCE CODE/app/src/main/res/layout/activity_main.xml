@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <Button
+            android:id="@+id/button_ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="233dp"
+            android:layout_marginTop="256dp"
+            android:layout_marginEnd="-3dp"
+            android:text="Progress Bar"
+            android:textSize="18sp"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/button_customAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="123dp"
+            android:layout_marginEnd="232dp"
+            android:text="Custom Alert"
+            android:textSize="18sp"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/button_snackBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="226dp"
+            android:layout_marginTop="123dp"
+            android:layout_marginEnd="4dp"
+            android:text="Snack Bar"
+            android:textSize="18sp"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/button_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-4dp"
+            android:layout_marginTop="-7dp"
+            android:text="PICK A DATE"
+            android:textSize="18sp"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/button_Toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="254dp"
+            android:layout_marginEnd="230dp"
+            android:text="Toast"
+            android:textSize="18sp"
+            app:backgroundTint="#000000" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/ballpulseindicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="206dp"
+            android:layout_marginEnd="180dp"
+            android:visibility="gone"
+            app:indicatorColor="@color/black"
+            app:indicatorName="BallPulseIndicator" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
