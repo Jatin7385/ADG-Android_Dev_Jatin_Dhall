@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
         stage1 = findViewById(R.id.button_1);
         stage2 = findViewById(R.id.button_2);
         stage3 = findViewById(R.id.button_3);
